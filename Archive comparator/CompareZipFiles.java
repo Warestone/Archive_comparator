@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class CompareZipFiles {
-    public List<String> CompareArchives(File archive1, File archive2)
+    public static List<String> CompareArchives(File archive1, File archive2)
     {
         GetFilesZip gfz = new GetFilesZip();
         List<String> output = new ArrayList<>();

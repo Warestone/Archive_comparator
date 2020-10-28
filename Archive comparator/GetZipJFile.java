@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.InputMismatchException;
 
 public class GetZipJFile {
-    public File GetArchive(boolean first)
+    public static File GetArchive(boolean first)
     {
         String buttonText;
         File archive;

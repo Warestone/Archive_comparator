@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class PrintToFile {
-    public int printResult(List<String> output)
+    public static int printResult(List<String> output)
     {
         try(FileWriter writer = new FileWriter("out\\Compare result.txt", false))
         {

@@ -1,4 +1,3 @@
-import javax.imageio.IIOException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,7 +6,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class GetFilesZip {
-    public HashMap<String, Long> GetFiles(File zipFile)
+    public static HashMap<String, Long> GetFiles(File zipFile)
     {
         HashMap<String,Long> files = new HashMap<String, Long>();
         try(ZipInputStream archive = new ZipInputStream(new FileInputStream(zipFile)))
