@@ -12,6 +12,7 @@ public class Archive_comparator {
 
     public Archive_comparator(String[] args)
     {
+        if (args.length==0) new Archive_comparator();
         if (args.length==2)
         {
             File archive1 = new File(args[0]);
